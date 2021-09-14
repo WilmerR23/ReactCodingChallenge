@@ -4,6 +4,7 @@ import { StyledCardProps, StyledDivProps, StyledSpanProps } from '../types/Props
 
 export const StyledCard = styled.div`
     display: flex;
+    flex-wrap: wrap;
     margin: 5px 0 5px 0;  
     padding: 15px 15px;
     min-height: 45px;
